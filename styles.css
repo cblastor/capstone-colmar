@@ -63,7 +63,7 @@ header .mobile{
     flex-wrap: wrap;
 }
 .banner img{
-    max-width: 57%;
+    max-width: 60%;
     margin: 32px 24px;
 }
 .banner .content{
@@ -74,7 +74,7 @@ header .mobile{
 }
 h1{
     font-size: 3rem;
-    margin: 0 0 32px 0;
+    margin: 0 0 24px 0;
 
 }
 p{
@@ -109,13 +109,14 @@ p{
 }
 /* information */
 .left-pannel{
-    width: 60%;
-    display: flex;
+    width: 63%;
+    display: inline-block;
     flex-direction: column;
+    margin: 0 24px 0 0;
 }
 .left-pannel img{
     margin: 32px 24px;
-    width: auto;
+    width: 97%;
     display: block;
 }
 .left-pannel h1{
@@ -133,7 +134,7 @@ p{
     display: flex;
 }
 .pannel{
-    width: 40%;
+    width: 37%;
     margin: 16px 0;
     display: inline-flex;
     flex-direction: column;
@@ -142,6 +143,7 @@ p{
 }
 .info img{
     margin: 16px;
+    width: 70%;
 }
 .pannel h3{
     font-size: 2rem;
@@ -185,7 +187,7 @@ p{
 }
 .info{
     flex-direction: column;
-    max-width: 100%;
+    max-width: 95%;
     align-items: flex-start;
     border: none;
 }
