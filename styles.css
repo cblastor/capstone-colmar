@@ -196,6 +196,7 @@ h3{
     max-width: 95%;
     align-items: flex-start;
     border: none;
+    margin: 0;
 }
 .info img{
     width: 100%;
@@ -256,10 +257,11 @@ h3{
         margin: 0;
     }
     .learning{
-        background-color: white;
+        background-color: rgb(234, 241, 239);
         text-align: center;
         padding: 32px 0 32px 0;
         max-width: 100%;
+        margin: 0;
     }
     .course{
         margin: 4px;
